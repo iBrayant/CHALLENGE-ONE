@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <span class="material-symbols-outlined">encrypted_add</span>
+    <h1 class="title">ENCRYPTOR</h1> 
+    <h2 class="subtitle">Encripta y desencripta tus mensajes de forma segura</h2> 
+
+    <div class="container">
+        <div class="input-container"> 
+            <textarea id="input-text" placeholder="Ingresa el texto aquí"></textarea>
+            <div class="buttons">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+            </div>
+            <p class="info">¡Solo letras minúsculas y sin acento!</p>
+            <p id="error-message" class="error hidden"></p> 
+        </div>
+
+        <div class="output-container hidden">
+            <textarea id="output-text" readonly placeholder="Texto encriptado/desencriptado"></textarea>
+            <button id="copy-btn">Copiar</button>
+            <p class="copy-info">Haz clic en "Copiar" o selecciona el texto y presiona Ctrl+C (o Cmd+C en Mac)</p> 
+        </div>
+
+        <div class="history-container hidden"> </div> 
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
