@@ -30,10 +30,10 @@ Ejemplo: `hola` → `hoberlai`.
 ## Características
 
 - **Encriptar y desencriptar** con las reglas de la tabla.
-- **Validación de la entrada:** solo acepta letras minúsculas sin acento y espacios, y avisa cuando hay otros caracteres.
+- **Validación de la entrada:** acepta letras sin acento y espacios (las mayúsculas se pasan a minúsculas) y avisa cuando hay otros caracteres.
 - **Botón "Copiar"** que usa la API del portapapeles y muestra una confirmación animada.
 - **Historial** de las operaciones; al hacer clic en una entrada se vuelven a cargar sus textos.
-- **Diseño oscuro** y adaptable a pantallas pequeñas.
+- **Diseño oscuro** con tipografías de Google Fonts.
 
 ## Cómo correrlo
 
