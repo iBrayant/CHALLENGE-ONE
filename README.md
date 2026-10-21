@@ -29,11 +29,12 @@ Ejemplo: `hola` → `hoberlai`.
 
 ## Características
 
-- **Encriptar y desencriptar** con las reglas de la tabla.
-- **Validación de la entrada:** acepta letras sin acento y espacios (las mayúsculas se pasan a minúsculas) y avisa cuando hay otros caracteres.
-- **Botón "Copiar"** que usa la API del portapapeles y muestra una confirmación animada.
-- **Historial** de las operaciones; al hacer clic en una entrada se vuelven a cargar sus textos.
-- **Diseño oscuro** con tipografías de Google Fonts.
+- **Encriptar y desencriptar** el texto de la caja de entrada con las reglas de la tabla: para desencriptar basta pegar el mensaje encriptado y pulsar el botón.
+- **Validación de la entrada:** avisa si el texto está vacío o si tiene mayúsculas, acentos o ñ. Números, signos de puntuación y saltos de línea se aceptan y se dejan igual.
+- **Desencriptado en una sola pasada**, de modo que `encriptar` y `desencriptar` son inversos para cualquier texto en minúsculas (comprobado con más de 500.000 cadenas).
+- **Botón "Copiar"** que usa la API del portapapeles y muestra una confirmación animada (o un aviso si el navegador no lo permite).
+- **Historial** de las últimas 20 operaciones, la más reciente arriba y sin repetidos seguidos; al activar una entrada (clic o Enter) se vuelven a cargar sus textos.
+- **Diseño oscuro** adaptable a pantallas pequeñas, con foco visible para teclado y etiquetas accesibles.
 
 ## Cómo correrlo
 
